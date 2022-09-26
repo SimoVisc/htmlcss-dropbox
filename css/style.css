@@ -7,4 +7,49 @@
 /* TYPO */
 body{
     font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+li{
+    font-size: 10px;
+}
+/* BUTTONS */
+.btn{
+    background-color: blue;
+    border: none;
+    padding: 5px;
+    color: #fff;
+    font-size: 10px;
+
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    height: 20%;
+    display:flex;  
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 20px;
+}
+.contant-row{
+    justify-content: space-between;
+    display:flex;
+    width: 100%; 
+    margin: 0;
+} 
+.contant-row ul{
+    display: flex;
+    align-items: center;
+}
+.header-left, .header-right{
+    width: 40%;
+}
+li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+  
 }
