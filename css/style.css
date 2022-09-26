@@ -19,7 +19,9 @@ li{
     padding: 5px;
     color: #fff;
     font-size: 10px;
-
+}
+.btn-hero{
+    margin: 20px 0;
 }
 
 /* HEADER */
@@ -51,5 +53,35 @@ li{
     list-style: none;
     width: 100%;
     text-align: center;
-  
+}
+/* MAIN */
+main{
+
+}
+.hero{
+    background-color: #b4d0e7;
+    width: 100%;
+}
+.contenitore-titolo-hero{
+    margin:auto;
+    width: 60%;
+    font-size: 250%;
+    padding: 5% 0;
+}
+.testo-immagine-hero{
+   display:flex;
+   margin:auto;
+   width: 60%;
+
+}
+.testo-hero{
+    width: 40%;
+    padding-right: 5%;
+    font-size: 65%;
+}
+.immagine-hero{
+    width: 60%;
+}
+img{
+    width: 100%;
 }
