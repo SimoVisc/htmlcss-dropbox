@@ -26,6 +26,7 @@ li{
 
 /* HEADER */
 header{
+    background-color: #fff;
     width: 100%;
     height: 20%;
     display:flex;  
@@ -58,6 +59,7 @@ li{
 main{
 
 }
+/* HERO */
 .hero{
     background-color: #b4d0e7;
     width: 100%;
@@ -72,7 +74,6 @@ main{
    display:flex;
    margin:auto;
    width: 60%;
-
 }
 .testo-hero{
     width: 40%;
@@ -85,3 +86,53 @@ main{
 img{
     width: 100%;
 }
+.arrow-down i{
+    padding-top: 20%;
+    font-size: 300%;
+}
+/* PIANO-BUSINESS */
+.piano-business{
+    margin: auto;
+    width: 50%;
+    padding-top: 10% ;
+}
+.titolo-piano-business{
+   padding: 5% 0;
+   font-size: 200%;
+}
+.input{
+    display: flex;
+}
+.input-f-mensile, .input-f-annuale{
+    padding-right: 5%;
+    padding-bottom:10%;
+    font-size: 80%;
+}
+.business-pack{
+    display: flex;
+    justify-content: space-between;
+}
+.single-pack, .team-pack, .azienda-pack{
+    width: 30%;
+    border: #d0d0d3 solid;
+}
+.business-pack .icona{
+    font-size: 60%;
+    border-bottom: #d0d0d3 solid;
+    text-align: center;
+    align-items: center;
+    padding: 5%;
+}
+.caratteristiche{
+    padding: 20% 10%;
+}
+.cosa-comprende-1{
+    padding: 0 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.numero-utenti{
+    padding-right: 30%;
+}
+
+
