@@ -23,6 +23,12 @@ li{
 .btn-hero{
     margin: 20px 0;
 }
+.btn-partner{
+    background-color: #fff;
+    border: #d0d0d3 solid;
+    color: black;
+    margin-top: 20%;
+}
 
 /* HEADER */
 header{
@@ -134,5 +140,60 @@ img{
 .numero-utenti{
     padding-right: 30%;
 }
+/* PARTNERs DROPBOX */
+.partners{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    padding: 10% 0 ;
+}
+.testo-partner{
+    width: 40%;
+    padding: 5%;
+    font-size: 80%;
+}
+.img-partner{
+    width: 60%;
+}
+
+/* OPERAZIONI */
+.titolo-operazioni{
+    font-size: 150%;
+    margin:auto;
+    width: 50%;
+}
+.contenitore-operazioni{
+    display: flex;
+    margin:auto;
+    width: 50%;
+    flex-wrap: wrap;
+}
+.tipo-operazione{
+    width: 30%;
+    padding:4%;
+    font-size: 70%;
+}
+/* CLIENTI */
+.titolo-clienti{
+    font-size: 150%;
+    margin:auto;
+    width: 50%;
+    padding: 5% 0;
+}
+/* FAQ */
+.titolo-faq{
+    font-size: 150%;
+    margin:auto;
+    width: 50%;
+    padding: 5% 0;
+}
+.contenitore-domande{
+    margin: auto;
+    width: 50%;
+}
+
+
+
+
 
 
