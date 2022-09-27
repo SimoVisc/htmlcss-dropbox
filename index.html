@@ -18,22 +18,22 @@
     <header>
       <div class="contant-row">
         <nav class="header-left">
-            <ul>
+            <ul class="ul-header">
                 <!-- logo -->
-                <li><img src="img/logo-small.png" alt="logo"> </li>
+                <li class="li-header"><img src="img/logo-small.png" alt="logo"> </li>
                 <!-- logo -->
-                <li>Perchè Dropbox?</li>
-                <li>Funzioni</li>
-                <li>Piani e Prezzi</li>
+                <li class="li-header">Perchè Dropbox?</li>
+                <li class="li-header">Funzioni</li>
+                <li class="li-header">Piani e Prezzi</li>
             </ul>
         </nav>
         <nav class="header-right">
-           <ul>
-               <li>Supporto</li>
-               <li>Contatta l'ufficio vendite</li>
-               <li>Accedi</li>
+           <ul  class="ul-header">
+               <li class="li-header">Supporto</li>
+               <li class="li-header">Contatta l'ufficio vendite</li>
+               <li class="li-header">Accedi</li>
                <!-- bottone-inizia -->
-               <li><button class="btn ">inizia</button></li>
+               <li class="li-header"><button class="btn ">inizia</button></li>
                <!-- bottone-inizia -->
            </ul>
         </nav>
@@ -46,7 +46,7 @@
         <!-- hero -->
       <section class="hero">
           <div class="contenitore-titolo-hero">
-                <h1 class="titolo">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
+                <h1 class="titolo-hero">Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
           </div>
           <div class="testo-immagine-hero">
               <div class="testo-hero">
@@ -64,7 +64,7 @@
 
       <!-- piano-business -->
       <section class="piano-business">
-        <h2 class="titolo-piano-business">Trova il piano Business che fa per te</h2>
+            <h2 class="titolo">Trova il piano Business che fa per te</h2>
         <!-- input -->
         <div class="input">
           <div class="input-f-mensile">
@@ -77,45 +77,61 @@
           </div>
         </div>
         <section class="business-pack">
-            <div class="single-pack">
-                <div class="icona i-single">
-                    <i class="fa-solid fa-user"></i>
-                    <span>Singolo</span>
-                </div>
-                <div class="caratteristiche">
+            <div class="stessa-linea">
+             <div class="single-pack">
+              <div class="icona i-single">
+                   <i class="fa-solid fa-user"></i>
+                   <span>Singolo</span>
+              </div> 
+              <div class="caratteristiche">
                     <h3>Professional</h3>
                     <span> € 12.00</span> <br>
                     <small>/mese</small>
+              </div>
+              <div class="cosa-comprende">
+                   <ul class="ul-business">
+                       <li class="li-business">
+                         <i class="fa-solid fa-user"></i>
+                         <span>1 utente </span>
+                     </li>
+                   </ul>
+                   <ul class="ul-business">
+                       <li class="li-business">
+                         <i class="fa-sharp fa-solid fa-folder"></i>
+                         <span>5 tb di spazio di archiviazione sicuro per te</span>
+                        </li>
+                   </ul>
+                   <ul class="ul-business">
+                       <li class="li-business">
+                         <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                         <span>Funzioni di produttività premium e condivisione file </span>
+                        </li>
+                    </ul>
+                   <div class="contenitore-btn"><button class="btn btn-businesspack">Prova gratis per 30 giorni</button><br></div>
+                   <div>
+                        <span>oppure <a href="https://www.dropbox.com/plans">acquista ora</a></span>
+                        <hr>
+                   </div>
+                   <div>
+                        <h4 class="titolo-piccolo">Punti salienti del piano</h4>
+                   </div>
+                   <ul class="ul-business">
+                        <li class="li-business">
+                            <i class="fa-sharp fa-solid fa-check"></i>
+                            <span>Invia file fino a 100GB con dropbox </span>
+                        </li>
+                   </ul>
+                   <ul class="ul-business">
+                        <li class="li-business">
+                            <i class="fa-sharp fa-solid fa-check"></i>
+                            <span>Cartelle offline su dispositivi mobili</span>
+                        </li>
+                   </ul>
                 </div>
-                <div class="cosa-comprende-1">
-                   <div class="icona-utenti">
-                     <i class="fa-solid fa-user"></i>
-                   </div>
-                   <div class="numero-utenti">
-                     <span>1 utente </span>
-                   </div>
-                   <div class="icona-spazio-archiviazione">
-                     <i class="fa-solid fa-user"></i> 
-                   </div>
-                   <div class="spazio-archiviazione">
-                     <span>5 tb di spazio di archiviazione sicuro</span>
-                   </div>
-                   <div class="icona-funzioni">
-                     <i class="fa-solid fa-user"></i>
-                   </div>
-                   <div class="funzioni">
-                     <span>Funzioni di produttività premium e condivisione file sempice</span><br>
-                   </div>
-                </div>
-                <button class="btn">Prova gratis per 30 giorni</button><br>
-                 <span>oppure <a href="https://www.dropbox.com/plans">acquista ora</a></span>
-                </div>
-                <hr>
-                <h4>Punti salienti del piano</h4>
-                <i class="fa-solid fa-user"></i> 
-            <div class="team-pack">
+               </div>
+              <div class="team-pack">
                 <div class="icona i-team">
-                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-solid fa-users"></i>
                     <span>Team</span>
                 </div>
                 <div class="caratteristiche">
@@ -124,41 +140,140 @@
                     <small>/utente/mese</small>
                 </div>
                 <div class="cosa-comprende">
-                   <i class="fa-solid fa-user"></i>
-                   <span>30 o più utenti</span><br>
-                   <i class="fa-solid fa-user"></i> 
-                   <span>Tutto lo spazio di cui ha bisogno il tuo team</span><br>
-                   <i class="fa-solid fa-user"></i>
-                   <span> Sofisticata funzione di controllo e condivisione file sempice del tuo team</span>
-                </div>
-                <button class="btn">Prova gratis per 30 giorni</button> <br>
-                <span>oppure <a href="https://www.dropbox.com/plans">acquista ora</a></span>
-                <hr>
-            
-            </div>
-            <div class="azienda-pack">
+                    <ul class="ul-business">
+                        <li class="li-business">
+                            <i class="fa-solid fa-user"></i>
+                            <span>3 o più utenti </span>
+                        </li>
+                    </ul>
+                    <ul class="ul-business">
+                      <li class="li-business">
+                            <i class="fa-sharp fa-solid fa-folder"></i>
+                            <span>tutto lo spazio che ha bisogno il tuo team per star bene</span>
+                      </li>
+                    </ul>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                            <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                            <span>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file</span><br>
+                        </li>
+                    </ul>
+                    <div class="contenitore-btn"><button class="btn btn-businesspack">Prova gratis per 30 giorni</button><br></div>
+                    <div>
+                        <span>oppure <a href="https://www.dropbox.com/plans">acquista ora</a></span>
+                        <hr>
+                    </div>
+                    <div>
+                        <h4 class="titolo-piccolo">Punti salienti del piano</h4>
+                    </div>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                          <i class="fa-sharp fa-solid fa-check"></i>
+                          <span>nessun limite di spazio per i file</span>
+                        </li>
+                    </ul>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                          <i class="fa-sharp fa-solid fa-check"></i>
+                          <span>Cartelle offline su dispositivi mobili</span>
+                        </li>
+                    </ul>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                            <i class="fa-sharp fa-solid fa-check"></i>
+                            <span>Cartelle offline su dispositivi mobili</span>
+                        </li>
+                   </ul>
+                   <ul class="ul-business">
+                       <li class="li-business">
+                          <i class="fa-sharp fa-solid fa-check"></i>
+                          <span>Cartelle offline su dispositivi mobili</span>
+                        </li>
+                    </ul>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                         <i class="fa-sharp fa-solid fa-check"></i>
+                         <span>Cartelle offline su dispositivi mobili</span>
+                       </li>
+                   </ul>
+              </div>
+             </div>
+             <div class="azienda-pack">
                 <div class="icona i-azienda">
-                    <i class="fa-solid fa-user"></i>
+                    <i class="fa-sharp fa-solid fa-building"></i>
                     <span>Azienda</span>
                 </div>
                 <div class="caratteristiche">
                     <h3>Enterprise</h3>
-                    <span> Contattaci</span> <br>
+                    <span> Contattaci</span> <br> 
                     <small>-</small>
                 </div>
                 <div class="cosa-comprende">
-                   <i class="fa-solid fa-user"></i>
-                   <span>10 o più utenti</span> <br>
-                   <i class="fa-solid fa-user"></i> 
-                   <span>soluzioni personalizzabili per la tua azienda</span><br>
-                   <i class="fa-solid fa-user"></i>
-                   <span>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span>
-                </div>
-                <button class="btn">Contattaci</button> <br>
-                <span>oppure <a href="https://www.dropbox.com/plans">acquista ora</a></span>
-                <hr>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                           <i class="fa-solid fa-user"></i>
+                           <span>10 o più utenti </span>
+                        </li>
+                    </ul>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                           <i class="fa-sharp fa-solid fa-folder"></i>
+                           <span>soluzioni personalizzabili per la tua azienda</span>
+                        </li>
+                    </ul>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                           <i class="fa-sharp fa-solid fa-share-nodes"></i>
+                           <span>Assistenza personalizzata per gli amministratori</span><br>
+                        </li>
+                    </ul class="ul-business">
+                    <div class="contenitore-btn"><button class="btn btn-businesspack">Contattaci</button><br></div>
+                    <div>
+                        <span>oppure <a href="https://www.dropbox.com/plans">acquista ora</a></span>
+                        <hr>
+                    </div>
+                    <div>
+                        <h4 class="titolo-piccolo">Punti salienti del piano</h4>
+                    </div>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                          <i class="fa-sharp fa-solid fa-check"></i>
+                          <span>Invia file fino a 100GB con dropbox </span>
+                        </li>
+                    </ul>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                          <i class="fa-sharp fa-solid fa-check"></i>
+                          <span>Cartelle offline su dispositivi mobili</span>
+                        </li>
+                    </ul>
+                    <ul class="ul-business">
+                        <li class="li-business">
+                          <i class="fa-sharp fa-solid fa-check"></i>
+                          <span>Cartelle offline su dispositivi mobili</span>
+                        </li>
+                    </ul>
+             </div>
+            </div>
+           <div class="ultima-colonna"> 
+              <div class="i-team">
+                 <i class="fa-sharp fa-solid fa-building"></i>
+                 <span>Team</span>
+              </div>
+              <div class="caratt-ultimo">
+                  <div class="testo">
+                     <h3>Enterprise</h3> <br>
+                     <strong>Contatta l'ufficio vendite per il prezzo</strong><br>
+                     <span>Soluzioni personalizzate e supporto su misura per te</span>
+                  </div>
+                  <div class="bottone">
+                    <button class="btn"> contatta l'ufficio vendite</button>
+                  </div>
+              </div>
            </div>
+        
         </section>
+
       </section>
       <!-- /piano-business -->
 
@@ -177,8 +292,8 @@
       
       <!-- operazioni -->
       <section class="operazioni">
-        <div class="titolo-operazioni">
-           <h3>Esegui più operazioni con Dropbox Business</h3>
+        <div class="contenitore-titolo">
+           <h2 class= "titolo">Esegui più operazioni con Dropbox Business</h2>
         </div>
         <div class="contenitore-operazioni">
             <div class="tipo-operazione">
@@ -219,8 +334,28 @@
 
       <!-- clienti -->
       <section class="clienti">
-          <div class="titolo-clienti">
-              <h3> Più di 500.000 team utilizzano Dropbox Business</h3>
+          <div class="contenitore-titolo">
+              <h2 class="titolo"> Più di 500.000 team utilizzano Dropbox Business</h2>
+          </div>
+          <div class="lista-clienti">
+            <div class="colonna-clienti">
+                <div class="logo-clienti">
+                    <div class="logo design-it">
+                        <img class="img-small" src="img/designit.svg" alt="">
+                    </div>
+                    <div class="logo arizona">
+                        <img class="img-big" src="img/arizona_state_university.svg" alt="">
+                    </div>
+                    <div class="logo florida">
+                        <img class="img-small" src="img/university_of_florida.svg" alt="">
+                    </div>
+                    <div class="logo topps">
+                        <img class="img-big" src="img/topps.svg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="colonna-clienti">manbadmsncb</div>
+            <div class="colonna-clienti">adjcksdc</div>
           </div>
       </section class="clienti">
       <!-- /clienti -->
@@ -230,30 +365,32 @@
 
       <!-- faq -->
       <section class="faq">
-          <div class="titolo-faq">
-            <h3>Domande frequenti</h3>
+          <div class="contenitore-titolo">
+            <h2 class="titolo">Domande frequenti</h2>
           </div>
           <div class="contenitore-domande">
              <hr>
-             <div class="domanda">
-                  <span>Qual è la differenza tra Dropbox Business?</span>
-                  <i class="fa-solid fa-chevron-down"></i>
-             </div>
-             <hr class="hr-grigia">
-             <div class="domanda">
-                  <span>Qual è la differenza tra Dropbox Business?</span>
-                  <i class="fa-solid fa-chevron-down"></i>
-             </div>
+             <ul class="domanda">
+                  <li>
+                      <span>Qual è la differenza tra Dropbox Business?</span>
+                      <i class="fa-solid fa-chevron-down"></i>
+                  </li>
+             </ul>
              <hr>
-             <div class="domanda">
-                  <span>Qual è la differenza tra Dropbox Business?</span>
-                  <i class="fa-solid fa-chevron-down"></i>
-             </div>
-             <hr class="hr-grigia">
-
-
-
-
+             <ul class="domanda">
+                  <li>
+                      <span>Qual è la differenza tra Dropbox Business?</span>
+                      <i class="fa-solid fa-chevron-down"></i>
+                  </li>
+             </ul>
+             <hr>
+             <ul class="domanda">
+                  <li>
+                     <span>Qual è la differenza tra Dropbox Business?</span>
+                     <i class="fa-solid fa-chevron-down"></i>
+                  </li>
+                </ul>
+             <hr>
           </div>
       </section>
       <!-- faq -->

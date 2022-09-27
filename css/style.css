@@ -4,14 +4,32 @@
     margin: 0;
     padding: 0;
 }
+/* COMMON */
+img{
+    width: 100%;
+}
+.contenitore-titolo{
+    margin:auto;
+    width: 50%;
+}
+.titolo{
+    padding: 5% 0;
+    font-size: 150%;
+}
+li{
+    list-style: none;
+}
 /* TYPO */
 body{
     font-family: 'Open Sans', sans-serif;
     position: relative;
 }
-li{
+.li-header{
     font-size: 10px;
 }
+
+
+
 /* BUTTONS */
 .btn{
     background-color: blue;
@@ -29,7 +47,10 @@ li{
     color: black;
     margin-top: 20%;
 }
-
+.btn-businesspack{
+    padding: 5%;
+    margin: 10%;
+}
 /* HEADER */
 header{
     background-color: #fff;
@@ -42,6 +63,7 @@ header{
     left: 0;
     right: 0;
     padding: 10px 20px;
+    z-index: 10;
 }
 .contant-row{
     justify-content: space-between;
@@ -49,21 +71,17 @@ header{
     width: 100%; 
     margin: 0;
 } 
-.contant-row ul{
+.ul-header{
     display: flex;
     align-items: center;
 }
 .header-left, .header-right{
     width: 40%;
 }
-li{
+.li-header{
     list-style: none;
     width: 100%;
     text-align: center;
-}
-/* MAIN */
-main{
-
 }
 /* HERO */
 .hero{
@@ -73,13 +91,15 @@ main{
 .contenitore-titolo-hero{
     margin:auto;
     width: 60%;
-    font-size: 250%;
     padding: 5% 0;
+    font-size: 250%;
 }
 .testo-immagine-hero{
    display:flex;
    margin:auto;
    width: 60%;
+   position: relative;
+   bottom:-80%;
 }
 .testo-hero{
     width: 40%;
@@ -89,9 +109,7 @@ main{
 .immagine-hero{
     width: 60%;
 }
-img{
-    width: 100%;
-}
+
 .arrow-down i{
     padding-top: 20%;
     font-size: 300%;
@@ -102,10 +120,6 @@ img{
     width: 50%;
     padding-top: 10% ;
 }
-.titolo-piano-business{
-   padding: 5% 0;
-   font-size: 200%;
-}
 .input{
     display: flex;
 }
@@ -114,9 +128,10 @@ img{
     padding-bottom:10%;
     font-size: 80%;
 }
-.business-pack{
+.stessa-linea{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .single-pack, .team-pack, .azienda-pack{
     width: 30%;
@@ -132,15 +147,41 @@ img{
 .caratteristiche{
     padding: 20% 10%;
 }
-.cosa-comprende-1{
-    padding: 0 10%;
+.cosa-comprende {
+    padding: 5%;
+    font-size: 12px;
+}
+.ul-business{
+    padding: 5%;
+}
+.li-business{
+    display:flex;
+}
+i{
+    padding-right: 3%;
+}
+.titolo-piccolo{
+    padding: 10%;
+}
+.ultima-colonna{
+   border: #d0d0d3 solid;
+   margin:auto;
+   width: 100%;
+
+}
+.caratt-ultimo{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between ;
 }
-.numero-utenti{
-    padding-right: 30%;
+.i-team{
+    font-size: 60%;
+    border-bottom: #d0d0d3 solid;
+    text-align: center;
+    align-items: center;
 }
-/* PARTNERs DROPBOX */
+
+    
+/* PARTNERS */
 .partners{
     display: flex;
     width: 50%;
@@ -158,7 +199,6 @@ img{
 
 /* OPERAZIONI */
 .titolo-operazioni{
-    font-size: 150%;
     margin:auto;
     width: 50%;
 }
@@ -174,23 +214,53 @@ img{
     font-size: 70%;
 }
 /* CLIENTI */
-.titolo-clienti{
-    font-size: 150%;
-    margin:auto;
-    width: 50%;
-    padding: 5% 0;
+.lista-clienti{
+display:flex;
 }
+.colonna-clienti{
+    width: calc(100%/3);
+    height: calc(100%/3);
+    overflow-y: auto;
+}
+.logo-clienti{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 50%;
+    height: 50%;
+}
+.design-it{
+    background-color: #a2d39b;
+}
+.arizona{
+    background-color: #61082b; 
+
+}
+.florida{
+    background-color: #0093ce; 
+}
+.topps{
+    background-color: #ff1c1c; 
+}
+.img-small{
+    padding: 28.8% 20%;
+}
+.img-big{
+
+}
+
+
+
 /* FAQ */
-.titolo-faq{
-    font-size: 150%;
-    margin:auto;
-    width: 50%;
-    padding: 5% 0;
-}
 .contenitore-domande{
     margin: auto;
     width: 50%;
 }
+.domanda{
+    padding: 5%;
+}
+
 
 
 
