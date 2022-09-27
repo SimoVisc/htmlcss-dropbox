@@ -51,6 +51,11 @@ body{
     padding: 5%;
     margin: 10%;
 }
+.btn-nuovi-clienti{
+    background-color: #fff;
+    color: black;
+    width: 150%;
+}
 /* HEADER */
 header{
     background-color: #fff;
@@ -277,6 +282,24 @@ display:flex;
     background-color: #ffd830;
     padding: 11%;
 }
+/* NUOVI CLIENTI */
+.nuovi-clienti{
+    background-color: #b4d0e7;
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.contenitore-titolo{
+
+}
+.tit-nuovi-clienti{
+  color:#61082b;
+  margin-left: 50%;
+}
+.contenitore-btn{
+    margin-right: 10%;
+    padding: 10% 15%;
+}
 /* FAQ */
 .contenitore-domande{
     margin: auto;
@@ -285,6 +308,8 @@ display:flex;
 .domanda{
     padding: 5%;
 }
+/* FOOTER */
+
 
 
 
