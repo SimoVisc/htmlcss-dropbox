@@ -167,6 +167,7 @@ i{
    border: #d0d0d3 solid;
    margin:auto;
    width: 100%;
+   margin-top: 20%;
 
 }
 .caratt-ultimo{
@@ -219,10 +220,7 @@ display:flex;
 }
 .colonna-clienti{
     width: calc(100%/3);
-    height: calc(100%/3);
     overflow-y: auto;
-}
-.logo-clienti{
     display: flex;
     flex-wrap: wrap;
 }
@@ -232,26 +230,53 @@ display:flex;
 }
 .design-it{
     background-color: #a2d39b;
+    padding: 18%;
 }
 .arizona{
     background-color: #61082b; 
+    padding: 8.8% 10%;
 
 }
 .florida{
     background-color: #0093ce; 
+    padding: 16.7% 10%;
 }
 .topps{
     background-color: #ff1c1c; 
+    padding: 15%;
 }
-.img-small{
-    padding: 28.8% 20%;
+.img-clienti{
+  filter: brightness(0) invert(1);
 }
-.img-big{
-
+.centrale{
+    background-color: #f5f5f5; 
+    font-size: 60%;
 }
-
-
-
+.img-centrale{
+    width: 60%;
+    padding: 5% 
+}
+.testo-centrale{
+    margin: 5%;
+    display: inline-block;
+    padding-bottom: 7.6%;
+}
+.world{
+    background-color:#d5001f;
+    padding: 16%;
+}
+.hearts{
+    background-color: #b4d0e7;
+    padding: 17%;
+}
+.lonely-planet{
+    background-color: #0d2481;
+    padding: 16%;
+}
+.clear{
+    background-color: #ffd830;
+    padding: 11%;
+}
 /* FAQ */
 .contenitore-domande{
     margin: auto;
