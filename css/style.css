@@ -289,9 +289,6 @@ display:flex;
     display: flex;
     justify-content: center;
 }
-.contenitore-titolo{
-
-}
 .tit-nuovi-clienti{
   color:#61082b;
   margin-left: 50%;
@@ -309,6 +306,29 @@ display:flex;
     padding: 5%;
 }
 /* FOOTER */
+footer{
+    background-color: black;
+    color: white;
+}
+.nav-footer{
+    display: flex;
+    margin-top: 20%;
+    padding: 10% 5%;
+}
+.colonna-footer{
+    margin:5%;
+}
+.li-footer{
+    margin-top:10%;
+    font-size:70%;
+
+}
+.lingua{
+    display: flex;
+    font-style: gray;
+    align-items: center;
+}
+
 
 
 
