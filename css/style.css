@@ -9,9 +9,6 @@
 .flex{
     display: flex;
 }
-img{
-    width: 100%;
-}
 .contenitore-titolo{
     margin:auto;
     width: 50%;
@@ -29,6 +26,15 @@ img{
 }
 .w-60{
     width: 60%;
+}
+.w-50{
+    width: 50%;
+}
+.w-40{
+    width:40%
+}
+img{
+    width: 100%;
 }
 hr{
     width: 30%;
@@ -49,6 +55,7 @@ a, .fa-check{
 body{
     font-family: 'Open Sans', sans-serif;
     position: relative;
+    font-size:16px
 }
 li{
     list-style: none;
@@ -99,9 +106,6 @@ header{
     margin: 0;
     align-items: center;
 } 
-.header-left, .header-right{
-    width: 50%;
-} 
 .ul-header{
     align-items: center;
 }
@@ -109,7 +113,6 @@ header{
     font-size: 14px;
     text-align: center;
 }
-
 
 /* HERO */
 .hero{
@@ -126,9 +129,7 @@ header{
    bottom:-80%;
 }
 .testo-hero{
-    width: 40%;
     padding-right: 5%;
-    font-size: 16px;
 }
 .arrow-down i{
     padding-top: 20%;
@@ -138,7 +139,6 @@ header{
 /* PIANO-BUSINESS */
 .piano-business{
     margin: auto;
-    width: 50%;
 }
 .input{
     padding-bottom:10%;
@@ -146,7 +146,6 @@ header{
 }
 .fatturazione-mensile, .fatturazione-annuale{
     padding-right: 5%;
-    font-size:16px
 }
 .stessa-linea{
     justify-content: space-between;
@@ -168,7 +167,6 @@ header{
 }
 .cosa-comprende {
     padding: 10% 5%;
-    font-size: 16px;
 }
 .li-business{
     padding-bottom: 15%;
@@ -194,23 +192,15 @@ i{
 
 /* PARTNERS */
 .partners{
-    width: 50%;
     margin: auto;
 }
 .testo-partner{
-    width: 40%;
     padding: 5%;
-    font-size: 16px;
 }
 
 /* OPERAZIONI */
-.titolo-operazioni{
-    margin:auto;
-    width: 50%;
-}
 .contenitore-operazioni{
     margin:auto;
-    width: 50%;
     flex-wrap: wrap;
 }
 .tipo-operazione{
@@ -220,6 +210,9 @@ i{
 }
 
 /* CLIENTI */
+.pad-bot{
+    padding-bottom: 10%;
+}
 .colonna-clienti{
     width: calc(100%/3);
     overflow-y: auto;
@@ -251,14 +244,12 @@ i{
 }
 .centrale{
     background-color: #f5f5f5; 
-    font-size: 80%;
 }
 .img-centrale{
     padding: 5% 
 }
 .testo-centrale{
     margin: 5%;
-    
 }
 .world{
     background-color:#d5001f;
@@ -293,12 +284,11 @@ i{
 /* FAQ */
 .contenitore-domande{
     margin: auto;
-    width: 50%;
 }
 .domanda{
+    justify-content: space-between;
     padding: 5% 0;
     border-bottom: solid black;
-    justify-content: space-between;
 }
 
 /* FOOTER */
@@ -313,11 +303,14 @@ footer{
 }
 .li-footer{
     margin-top:10%;
-    font-size:70%;
+    font-size:80%;
+}
+.hr-footer{
+margin-bottom: 5%;
 }
 .lingua{
-    font-style: gray;
     align-items: center;
+    font-style: gray;
 }
 
 
